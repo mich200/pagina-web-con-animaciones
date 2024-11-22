@@ -1,0 +1,148 @@
+h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+}
+
+h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+}
+
+h4 {
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+}
+
+h5 {
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+.custom-bg {  
+    background: linear-gradient(to right, #d3d3d3, #90ee90); 
+}  
+.custom-text {  
+    color: #ffffff;  
+}  
+
+.separator {  
+    width: 1px; 
+    background-color: #000;  
+    height: 30px; 
+    display: inline-block; 
+    margin: 0 15px;  
+}  
+
+.formulario {  
+    border: 1px solid #7fb1e770; /* Color del borde */  
+    border-radius: 5px; /* Bordes redondeados */  
+    background-color: #d0dfee54; /* Color de fondo oscuro */  
+    padding: 20px; /* Espaciado interno */  
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.185); /* Sombra para realzar */ 
+    @keyframes pulse {  
+        0% {  
+            transform: scale(1);  
+        }  
+        50% {  
+            transform: scale(1.05);  
+        }  
+        100% {  
+            transform: scale(1);  
+        }  
+    }  
+    
+    .pulsar {  
+        animation: pulse 1s infinite; /* Cambia 1s a la duración que desees */  
+    }   
+}  
+
+.img {
+    height: 280px;
+    width: 280px;
+}
+
+.footer{
+    width: 100%;
+    
+}
+
+.formulario{
+    background-image: url(assets/What\ is\ Lactic\ Acid_\ _\ By\ Sublime\ Life.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.diamond-container {  
+    position: relative;  
+    width: 200px; 
+    height: 200px; 
+    margin: 20px;  
+}  
+.diamond {  
+    position: absolute;  
+    width: 200px;  
+    height: 200px;  
+    overflow: hidden;  
+    transform: rotate(45deg);  
+    z-index: 1;  
+}  
+
+.diamond img {  
+    width: 100%;  
+    height: auto;  
+}  
+
+.square {  
+    position: absolute;  
+    top: 50%;  
+    left: 50%;  
+    width: 190px;  
+    height: 160px;   
+    transform: translate(-50%, -50%); /* Centrar la imagen frontal */  
+    z-index: 2;  
+    transition: left 0.2s; /* Transición suave al mover la imagen */  
+}  
+.square img {  
+    width: 100%;  
+    height: auto; /* Mantener la proporción de la imagen */  
+} 
+
+.carousel {  
+    max-width: 970px; /* Limitar el ancho del carrusel */  
+    margin: auto; /* Centrar el carrusel */  
+    border-radius: 10px; /* Bordes redondeados */  
+    overflow: hidden; /* Evitar el desbordamiento */ 
+    width: 500px;
+    height: 500px;
+}  
+
+.carousel-item img {  
+    transition: transform 0.5s ease; /* Efecto de transición al cambiar de imagen */  
+}  
+
+.carousel-item:hover img {  
+    transform: scale(1.05); /* Escalar imagen al pasar el mouse */  
+}  
+
+/* Estilo de los controles */  
+.carousel-control-prev-icon,  
+.carousel-control-next-icon {  
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */  
+    border-radius: 50%; /* Bordes redondeados */  
+}  
+
+.carousel-control-prev,  
+.carousel-control-next {  
+    filter: brightness(0) invert(1); /* Ajustar el color de los iconos */  
+}  
